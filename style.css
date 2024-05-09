@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #ffffff;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 140px;
+    height: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: rgb(79, 77, 77);
+    line-height: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family:  'Trebuchet MS', Calibri, sans-serif;
+
+}
+
+.detail a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.detail a :hover{
+    color: red;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.image img {
+  width: 500px;
+  height: 500px;
+
+}
